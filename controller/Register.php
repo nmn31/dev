@@ -1,6 +1,4 @@
-<?php
-echo "user registerd";                           
-/*  include_once("../model/Model.php"); 
+<?php include_once("../model/Model.php"); 
 
 $model = new Model();
 
@@ -10,14 +8,14 @@ $model = new Model();
 			$email = $_POST['email'];
 			$country = $_POST['country'];
 			if(empty($name)||empty($password)||empty($email)||empty($country)){
-		   header("location:http://localhost/login/view/regform.php?id=empty");
+		   header("location:http://localhost/view/regform.php?id=empty");
 		    }
 		else{
 	
 			$model->insert($name,$password,$email,$country);
 			header("location:http://localhost/login/index.php?id=added");
 }
- } */
+ }
 	
 
 
