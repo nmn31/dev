@@ -1,5 +1,5 @@
 <?php 
-$s = "location:".<?php echo $_SERVER['SERVER_NAME']; ?>."/login/view/home.php";
+$s = 'location:'.<?php echo $_SERVER['SERVER_NAME']; ?>.'/login/view/home.php';
 echo $s;
 exit;
 session_start();
