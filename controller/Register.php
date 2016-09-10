@@ -1,4 +1,6 @@
-<?php include_once("../model/Model.php"); 
+<?php
+echo "user registerd";
+/*  include_once("../model/Model.php"); 
 
 $model = new Model();
 
@@ -15,7 +17,7 @@ $model = new Model();
 			$model->insert($name,$password,$email,$country);
 			header("location:http://localhost/login/index.php?id=added");
 }
- }
+ } */
 	
 
 
