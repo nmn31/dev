@@ -1,5 +1,5 @@
 <?php
-echo "user registerd";
+echo "user registerd";                           
 /*  include_once("../model/Model.php"); 
 
 $model = new Model();
