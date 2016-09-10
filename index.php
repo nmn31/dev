@@ -11,7 +11,7 @@ include_once("view/header.php");
 <div>
   
   
-  <?php } else { 	header("location:http://localhost/login/view/home.php"); } ?>
+  <?php } else { 	header("location:https://learnig.herokuapp.com/login/view/home.php"); } ?>
 
 
 <?php include_once("view/footer.php"); ?>
