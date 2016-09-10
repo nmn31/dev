@@ -1,6 +1,6 @@
 <?php 
-$s = 'location:'.<?php echo $_SERVER['SERVER_NAME']; ?>.'/login/view/home.php';
-echo $s;
+$s = '"location:"';
+echo $s.$_SERVER['SERVER_NAME'].'/login/view/home.php';
 exit;
 session_start();
 include_once("view/header.php");
