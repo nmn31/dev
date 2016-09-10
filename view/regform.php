@@ -9,7 +9,7 @@ if(@$_GET['id'] =='empty'){?>
  ?> 
  <div class="row">
   <div class="col-sm-3"></div>
-  <div class="col-sm-6"><form role="form"method="post" action="http://localhost/login/controller/Register.php">
+  <div class="col-sm-6"><form role="form"method="post" action="<?php echo $_SERVER['SERVER_NAME']; ?>/login/controller/Register.php">
   <div class="form-group">
     <label for="email">User Name:</label>
     <input type="text" class="form-control" id="email" name = "name" onkeypress="return noenter()">

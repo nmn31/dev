@@ -25,7 +25,7 @@
 						 <a class = "navbar-brand" href = "#"><?php if(isset($_SESSION['user'])){  echo "WELCOME".' </BR>  '.$_SESSION['user']; } else { echo "LOGIN SYSTEM";}?></a>
 						</div></div>
 								  <div class="col-sm-7"> </div>
-								  <div class="col-sm-1"><?php if(isset($_SESSION['user'])){?> <a href = "http://localhost/login/controller/sessiondestroy.php">Logout </a> <?php } ?></div>  
+								  <div class="col-sm-1"><?php if(isset($_SESSION['user'])){?> <a href = "<?php echo $_SERVER['SERVER_NAME']; ?>/login/controller/sessiondestroy.php">Logout </a> <?php } ?></div>  
 						</div>
 					 
 						 
