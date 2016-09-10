@@ -1,8 +1,8 @@
 <?php 
-$s = '"location:"';
-echo $s.$_SERVER['SERVER_NAME'].'/login/view/home.php';
-exit;
 session_start();
+$s = '"location:"';
+//echo $s.$_SERVER['SERVER_NAME'].'/login/view/home.php';
+
 include_once("view/header.php");
 ?>
 <div class="row">
@@ -14,7 +14,9 @@ include_once("view/header.php");
 <div>
   
   
-  <?php } else { 	header("location:".<?php echo $_SERVER['SERVER_NAME']; ?>."/login/view/home.php"); } ?>
+  <?php } else { 	
+  
+  header( echo $s.$_SERVER['SERVER_NAME'].'/login/view/home.php'} ?>
 
 
 <?php include_once("view/footer.php"); ?>
