@@ -1,4 +1,7 @@
 <?php 
+$s = "location:".<?php echo $_SERVER['SERVER_NAME']; ?>."/login/view/home.php";
+echo $s;
+exit;
 session_start();
 include_once("view/header.php");
 ?>
@@ -11,7 +14,7 @@ include_once("view/header.php");
 <div>
   
   
-  <?php } else { 	header("location:https://learnig.herokuapp.com/login/view/home.php"); } ?>
+  <?php } else { 	header("location:".<?php echo $_SERVER['SERVER_NAME']; ?>."/login/view/home.php"); } ?>
 
 
 <?php include_once("view/footer.php"); ?>
