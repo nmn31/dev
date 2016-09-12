@@ -1,4 +1,7 @@
-<?php include_once("../model/Model.php"); 
+<?php 
+PRINT_R($_POST);
+EXIT;
+include_once("../model/Model.php"); 
 
 $model = new Model();
 

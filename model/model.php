@@ -1,9 +1,7 @@
 <?php  
   
 class Model { 
-     $servername = "sql6.freemysqlhosting.net";
-$username = "sql6135475";
-$password = "8zKGpAzm6J";
+
 
      public function insert($name,$password,$email,$country){   
 	    $conn = new mysqli("sql6.freemysqlhosting.net","sql6135475","8zKGpAzm6J", "sql6135475");
