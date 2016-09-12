@@ -1,7 +1,7 @@
 <?php 
  $include = "https://".$_SERVER['SERVER_NAME'].'/model/Model.php';
  print_r($include);
- include_once($include); 
+ include_once("../model/model.php"); 
  $model = new Model(); 
  print_r($model);
  $name = $_POST['name'];	
