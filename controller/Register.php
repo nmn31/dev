@@ -1,5 +1,7 @@
 <?php 
  $include = "https://".$_SERVER['SERVER_NAME'].'/model/Model.php';
+ echo $include;
+ exit;
  include_once($include); 
 
 $model = new Model(); */
