@@ -1,4 +1,8 @@
-<?php include_once("../model/Model.php");  
+<?php 
+
+echo "hi";
+exit;
+include_once("../model/Model.php");  
 
 
 if (isset($_POST['name'])&&isset($_POST['password'])&&isset($_POST['email'])){
