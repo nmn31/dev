@@ -3,7 +3,7 @@
  print_r($include);
  include_once($include); 
 
-            $model ="jojijojo" //new Model(); 
+            $model ="jojijojo" ;//new Model(); 
 			print_r($model)
 			exit;
             //PRINT_R($_POST);
