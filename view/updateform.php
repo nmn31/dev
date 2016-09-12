@@ -10,7 +10,7 @@
    </div> 
 <?php }
  ?> 
-<form role="form"method="post" action="<?php echo $_SERVER['SERVER_NAME']; ?>/login/controller/Update.php">
+<form role="form"method="post" action="<?php echo $_SERVER['SERVER_NAME']; ?>/controller/Update.php">
   <div class="form-group">
     <label for="email">User Name:</label>
     <input type="text" class="form-control" id="email" onkeypress="return noenter()" name = "name" value = "<?php echo $num_rows[1]; ?>">

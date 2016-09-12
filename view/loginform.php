@@ -38,7 +38,7 @@ elseif(@$_GET['id'] =='edit'){ ?>
 <?php	}
  ?>
   
- <form role="form" method="post" action="<?php echo $_SERVER['SERVER_NAME']; ?>/login/controller/Login.php" class="form-inline">
+ <form role="form" method="post" action="<?php echo $_SERVER['SERVER_NAME']; ?>/controller/Login.php" class="form-inline">
 	  <div class="form-group">
 			<label for="email">User Name</label>
 			<input type="text" class="form-control" id="email" name="name" onkeypress="return noenter()">
