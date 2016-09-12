@@ -1,7 +1,7 @@
 <?php 
-include_once("../model/Model.php"); 
+/* include_once("../model/Model.php"); 
 
-$model = new Model();
+$model = new Model(); */
 PRINT_R($_POST);
 exit;
  /* if (isset($_POST['name'])&&isset($_POST['password'])&&isset($_POST['email'])){
