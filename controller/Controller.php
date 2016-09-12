@@ -1,7 +1,5 @@
 <?php 
 
-echo "hi";
-exit;
 include_once("../model/Model.php");  
 
 

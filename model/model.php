@@ -1,8 +1,12 @@
 <?php  
   
 class Model { 
+     $servername = "sql6.freemysqlhosting.net";
+$username = "sql6135475";
+$password = "8zKGpAzm6J";
+
      public function insert($name,$password,$email,$country){   
-	    $conn = new mysqli("localhost","root","", "login");
+	    $conn = new mysqli("sql6.freemysqlhosting.net","sql6135475","8zKGpAzm6J", "sql6135475");
         $sql = "INSERT INTO reg (Name, Password, Email,Country)
                  VALUES ('$name','$password','$email','$country')";
 				  
