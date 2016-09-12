@@ -1,18 +1,17 @@
 <?php 
  $include = "https://".$_SERVER['SERVER_NAME'].'/model/Model.php';
  print_r($include);
+ exit;
  include_once($include); 
 
-            $model ="jojijojo" ;//new Model(); 
-			print_r($model)
-			exit;
+            $model = new Model(); 
             //PRINT_R($_POST);
 			$name = $_POST['name'];	
 			$password= $_POST['password'];	
 			$email = $_POST['email'];
 			$country = $_POST['country'];
 			echo "<pre>";
-			;
+			print_r($model);
 			
 			if(empty($name)||empty($password)||empty($email)||empty($country)){
 					header("Location:https://".$_SERVER['SERVER_NAME'].'/view/regform.php?id=empty');
