@@ -1,18 +1,20 @@
 <?php 
  $include = "https://".$_SERVER['SERVER_NAME'].'/model/Model.php';
- echo $include;
- //exit;
  include_once($include); 
 
-$model = new Model(); 
+            $model = new Model(); 
             //PRINT_R($_POST);
-			$name = $_POST['name'];	
-			$password= $_POST['password'];	
-			$email = $_POST['email'];
-			$country = $_POST['country'];
+			echo $name = $_POST['name'];	
+			echo $password= $_POST['password'];	
+			echo $email = $_POST['email'];
+			echo $country = $_POST['country'];
+			echo "<pre>";
+			print_r($model);
+			exit;
+			
 			if(empty($name)||empty($password)||empty($email)||empty($country)){
 					header("Location:https://".$_SERVER['SERVER_NAME'].'/view/regform.php?id=empty');
-					//header("location:http://localhost/view/regform.php?id=empty");
+				    //header("location:http://localhost/view/regform.php?id=empty");
 		    }
 		else{
 	          
