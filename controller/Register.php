@@ -2,7 +2,8 @@
 include_once("../model/Model.php"); 
 
 $model = new Model();
-
+   PRINT_R($_POST);
+			exit;
  if (isset($_POST['name'])&&isset($_POST['password'])&&isset($_POST['email'])){
 			$name = $_POST['name'];	
 			$password= $_POST['password'];	
@@ -11,9 +12,8 @@ $model = new Model();
 			PRINT_R($_POST);
 			exit;
 			if(empty($name)||empty($password)||empty($email)||empty($country)){
-		include_once("../model/Model.php"); 
-		   header("Location:https://".$_SERVER['SERVER_NAME'].'/view/regform.php?id=empty');
-		   //header("location:http://localhost/view/regform.php?id=empty");
+					header("Location:https://".$_SERVER['SERVER_NAME'].'/view/regform.php?id=empty');
+					//header("location:http://localhost/view/regform.php?id=empty");
 		    }
 		else{
 	
