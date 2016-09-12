@@ -4,7 +4,12 @@
  include_once($include); 
  $model = new Model(); 
  print_r($model);
-  exit;
+ $name = $_POST['name'];	
+ $password= $_POST['password'];	
+ $email = $_POST['email'];
+ $country = $_POST['country'];
+ echo $name.' '.$password.' '.$email.' '.$country ;
+ exit;
 
             
             //PRINT_R($_POST);

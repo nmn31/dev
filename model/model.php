@@ -1,5 +1,5 @@
 <?php  
-  
+ echo "this is model"; 
 class Model { 
 
 
