@@ -3,8 +3,8 @@
 
 $model = new Model(); */
 PRINT_R($_POST);
-exit;
- /* if (isset($_POST['name'])&&isset($_POST['password'])&&isset($_POST['email'])){
+//exit;
+ if (isset($_POST['name'])&&isset($_POST['password'])&&isset($_POST['email'])){
 			$name = $_POST['name'];	
 			$password= $_POST['password'];	
 			$email = $_POST['email'];
