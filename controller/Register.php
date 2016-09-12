@@ -3,6 +3,7 @@
  print_r($include);
  include_once($include); 
  $model = new Model(); 
+ print_r($model);
   exit;
 
             
