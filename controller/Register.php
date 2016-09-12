@@ -1,11 +1,11 @@
 <?php 
  $include = "https://".$_SERVER['SERVER_NAME'].'/model/Model.php';
  print_r($include);
-
  include_once($include); 
+ $model = new Model(); 
   exit;
 
-            $model = new Model(); 
+            
             //PRINT_R($_POST);
 			$name = $_POST['name'];	
 			$password= $_POST['password'];	
