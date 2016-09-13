@@ -9,4 +9,5 @@ $password = "8zKGpAzm6J";
     $num_rows = @mysql_fetch_row($result);
 	echo $dbname = $num_rows[1];
 	echo $dbpass = $num_rows[2];
+	
 ?>

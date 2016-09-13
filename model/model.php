@@ -1,5 +1,4 @@
-<?php  
- echo "this is model"; 
+<?php   
 class Model { 
 
 

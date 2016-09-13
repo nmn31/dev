@@ -7,6 +7,7 @@ if(isset($_POST['login'])||isset($_POST['name'])||isset($_POST['password']))
 			$password= $_POST['password'];	
 	    if(!empty($name)&&!empty($password)){
 			include_once("../model/Loginmodel.php");
+			exit;
 		    if($name==$dbname&&$password==$dbpass){
 				session_start();
 				$_SESSION['user']= $name;
