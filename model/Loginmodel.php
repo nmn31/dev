@@ -8,7 +8,8 @@ mysql_select_db("sql6135475", $link);
 
 $result = @mysql_query('SELECT * FROM reg where Name ="'.$name.'" ', $link);
 $num_rows = @mysql_fetch_row($result);
-echo $dbname = $num_rows[1];
-echo $dbpass = $num_rows[2];
+print_r($num_rows);
+/* echo $dbname = $num_rows[1];
+echo $dbpass = $num_rows[2]; */
 	
 ?>
