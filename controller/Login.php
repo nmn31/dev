@@ -1,14 +1,15 @@
 <?php
 include_once("../model/model.php"); 
 $model = new Model(); 
-$model->login('narender','kumar');
-exit;
- 
+$model->login('c','kumar'); 
 if(isset($_POST['login'])||isset($_POST['name'])||isset($_POST['password']))
 {
 	
 	    $name = $_POST['name'];	
-		$password= $_POST['password'];	
+		$password= $_POST['password'];
+		echo "<pre>";
+         print_r($_POST);	
+         exit;		 
 	     if(!empty($name)&&!empty($password)){
 		 print_r($_POST);
 	     include_once("../model/Loginmodel.php");
