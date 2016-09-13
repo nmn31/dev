@@ -8,8 +8,8 @@
 	 $result = mysqli_query($conn, $sql);
 	 $row = mysqli_fetch_assoc($result);
 	 print_r($row);
-	/*  $login_session = $row['Name'];
-   if(!isset($_SESSION['user'])){
-   header("Location:https://".$_SERVER['SERVER_NAME'].'/index.php?id=notlog');
-      //header("location:http://localhost/login/index.php?id=notlog");
-   }  */
+	 $login_session = $row['Name'];
+	if(!isset($_SESSION['user'])){
+	   header("Location:https://".$_SERVER['SERVER_NAME'].'/index.php?id=notlog');
+		  //header("location:http://localhost/login/index.php?id=notlog");
+   }  
