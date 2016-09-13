@@ -13,6 +13,7 @@ if(isset($_POST['login'])||isset($_POST['name'])||isset($_POST['password']))
 		  if($model->login($name,$password)==true){
 				session_start();
 				$_SESSION['user']= $name;
+				$_SESSION['pass']= $password;
 				header("Location:https://".$_SERVER['SERVER_NAME'].'/view/home.php');
 			
 			}else{
