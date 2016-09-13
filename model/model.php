@@ -40,7 +40,6 @@ class Model {
     }
     public function login($name,$password){
 	 echo "ssss";
-	 exit;
 	 /* $conn = new mysqli("sql6.freemysqlhosting.net","sql6135475","8zKGpAzm6J", "sql6135475");
 	 $sql = "SELECT * FROM reg where Name='$name' AND Password= '$password'";
 	 $result = $conn->query($sql);
