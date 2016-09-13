@@ -39,13 +39,15 @@ class Model {
 
     }
     public function login($name,$password){
-	 $conn = new mysqli("sql6.freemysqlhosting.net","sql6135475","8zKGpAzm6J", "sql6135475");
+	 echo "ssss";
+	 exit;
+	 /* $conn = new mysqli("sql6.freemysqlhosting.net","sql6135475","8zKGpAzm6J", "sql6135475");
 	 $sql = "SELECT * FROM reg where Name='$name' AND Password= '$password'";
 	 $result = $conn->query($sql);
 	 if ($result->num_rows > 0) {
      echo "hi";
 	 print_r($result);
-    }
+    } */
 	} 	
 		 
 }   

@@ -1,10 +1,10 @@
 <?php
 include_once("../model/model.php"); 
 $model = new Model(); 
-$model->login('narender','kumar');
+//$model->login('narender','kumar');
 exit;
  
-/* if(isset($_POST['login'])||isset($_POST['name'])||isset($_POST['password']))
+if(isset($_POST['login'])||isset($_POST['name'])||isset($_POST['password']))
 {
 	
 	    $name = $_POST['name'];	
@@ -27,7 +27,7 @@ exit;
 	//header("location:http://localhost/login/index.php?id=enter" );
 	} 
 	
-} */
+}
 
 
  ?>
