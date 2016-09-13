@@ -43,12 +43,13 @@ class Model {
 	 $conn = new mysqli("sql6.freemysqlhosting.net","sql6135475","8zKGpAzm6J", "sql6135475");
 	 $sql = "SELECT * FROM reg where Name='$name' AND Password= '$password'";
 	 $result = $conn->query($sql);
-	 print_r($result);
+	 //print_r($result);
 	 
-	 /* if ($result->num_rows > 0) {
-     echo "hi";
-	 print_r($result);
-    }  */
+	 if ($result->num_rows > 0) {
+     return true;
+    }else{
+	return false;
+	} 
 	} 	
 		 
 }   
