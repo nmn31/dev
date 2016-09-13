@@ -10,12 +10,15 @@ if(isset($_POST['login'])||isset($_POST['name'])||isset($_POST['password']))
 		    if($name==$dbname&&$password==$dbpass){
 				session_start();
 				$_SESSION['user']= $name;
-				header("location:http://localhost/login/view/home.php");
+				header("Location:https://".$_SERVER['SERVER_NAME'].'/view/home.php');
+				//header("location:http://localhost/login/view/home.php");
 			}else{
-				header("location:http://localhost/login/index.php?id=notmached" );
+			    header("Location:https://".$_SERVER['SERVER_NAME'].'/index.php?id=notmached');
+				//header("location:http://localhost/login/index.php?id=notmached" );
 			}
 	}else{
-	header("location:http://localhost/login/index.php?id=enter" );
+	header("Location:https://".$_SERVER['SERVER_NAME'].'/index.php?id=enter');
+	//header("location:http://localhost/login/index.php?id=enter" );
 	}
 	
 }
