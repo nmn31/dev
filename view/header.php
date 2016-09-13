@@ -25,7 +25,7 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 						 <a class = "navbar-brand" href = "#"><?php if(isset($_SESSION['user'])){  echo "WELCOME".' </BR>  '.$_SESSION['user']; } else { echo "LOGIN SYSTEM";}?></a>
 						</div></div>
 								  <div class="col-sm-7"> </div>
-								  <div class="col-sm-1"><?php if(isset($_SESSION['user'])){?> <a href = "<?php echo "https://".$_SERVER['SERVER_NAME']; ?>/controller/sessiondestroy.php">Logout </a> <?php } ?></div>  
+								  <div class="col-sm-1"><?php if(isset($_SESSION['user'])){?> <a href = "<?php echo "https://".$_SERVER['SERVER_NAME']; ?>/controller/Sessiondestroy.php">Logout </a> <?php } ?></div>  
 						</div>
 					 
 						 
