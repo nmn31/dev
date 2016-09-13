@@ -6,5 +6,5 @@
     include_once("../model/Fetch.php");
     include_once("../view/header.php");
 	
-print_r($_SESSION)
+print_r($_SESSION);
 ?>
