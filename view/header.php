@@ -16,6 +16,7 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
    function noenter() {
   return !(window.event && window.event.keyCode == 13); }
 </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 <div class="container-fluid">
