@@ -277,7 +277,9 @@ if(@$_GET['id'] =='empty'){?>
 			</select>
     
   </div>
+  <div class="g-recaptcha" data-sitekey="6LfFHyoTAAAAAMpJ20-DRFnwuDXz0n-vAPTDuumb"></div>
   <input type="submit" name="submit" value = "Register" class="btn btn-default" >
+  <div class="g-recaptcha" data-sitekey="6LfFHyoTAAAAAMpJ20-DRFnwuDXz0n-vAPTDuumb"></div>
 </form>
 
 
