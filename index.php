@@ -1,4 +1,5 @@
 <?php 
+ECHO "HELLO";
 session_start();
 include_once("view/header.php");
 
